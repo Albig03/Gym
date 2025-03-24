@@ -1,0 +1,16 @@
+/* Styling for the link to make it look like a button */
+.back-link {
+    font-size: 1.5em; /* Adjust the size of the text */
+    color: #fff; /* White text color */
+    background-color: #3498db; /* Blue background color */
+    padding: 10px 20px; /* Add some padding for the button look */
+    text-decoration: none; /* Remove the underline */
+    border-radius: 5px; /* Round the corners */
+    display: inline-block; /* Make it behave like a button */
+    text-align: center; /* Center the text inside */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.back-link:hover {
+    background-color: #2980b9; /* Darker blue when hovered */
+}

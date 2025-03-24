@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Calories</title>
+    <link rel="stylesheet" href="calories.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <button id="backToDashboardBtn" class="back-btn">Back to Dashboard</button>
+            <h1>Track Calories</h1>
+        </div>
+
+        <div class="food-search">
+            <input type="text" id="foodSearchInput" placeholder="Search for food" />
+            <button id="searchFoodBtn">Search</button>
+        </div>
+
+        <div id="searchResults" class="food-list"></div>
+
+        <div class="manual-entry">
+            <h2>Or Enter Calories Manually:</h2>
+            <input type="text" id="foodName" placeholder="Food name">
+            <input type="number" id="manualCalories" placeholder="Calories">
+            <input type="number" id="manualProtein" placeholder="Protein (g)">
+            <input type="number" id="manualCarbs" placeholder="Carbs (g)">
+            <input type="number" id="manualFats" placeholder="Fats (g)">
+            <button id="addManualFood">Add Manually</button>
+        </div>
+
+        <div class="added-foods">
+            <h2>Foods Added:</h2>
+            <ul id="addedFoodsList"></ul>
+            <p>Total Calories: <span id="totalCalories">0</span> cal</p>
+        </div>
+    </div>
+
+    <script src="calories.js"></script>
+</body>
+</html>
